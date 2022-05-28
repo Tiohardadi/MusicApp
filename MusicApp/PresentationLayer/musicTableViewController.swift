@@ -11,7 +11,7 @@ final class musicTableViewController: UITableViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Music App"
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "musicCell")
+        tableView.register(MusicTableViewCell.self, forCellReuseIdentifier: "musicCell")
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -19,8 +19,8 @@ final class musicTableViewController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "musicCell", for: indexPath)
-        cell.textLabel?.text = "test"
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "musicCell", for: indexPath) as? MusicTableViewCell else { return UITableViewCell() }
+        cell.configure(image: UIImage(systemName: "music.note"), artist: "Rich Brian", musicTitle: "Kidz", duration: "04:02")
         return cell
     }
     
