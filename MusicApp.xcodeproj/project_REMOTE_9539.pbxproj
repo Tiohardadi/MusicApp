@@ -15,7 +15,6 @@
 		01F643982841C79D00E124C9 /* detailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F643972841C79D00E124C9 /* detailMusicViewController.swift */; };
 		01F6439B2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F6439A2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 */; };
 		01F6439D2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F6439C2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 */; };
-		0A42025D2841D55D00C14212 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		01F643972841C79D00E124C9 /* detailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMusicViewController.swift; sourceTree = "<group>"; };
 		01F6439A2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3"; path = "../../../../../../../../Desktop/y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3"; sourceTree = "<group>"; };
 		01F6439C2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3"; path = "../../../../../../../../Desktop/y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3"; sourceTree = "<group>"; };
-		0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				01F643922841C4D700E124C9 /* musicTableViewController.swift */,
-				0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */,
 				01F643972841C79D00E124C9 /* detailMusicViewController.swift */,
 			);
 			path = PresentationLayer;
@@ -180,7 +177,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A42025D2841D55D00C14212 /* MusicTableViewCell.swift in Sources */,
 				01F643932841C4D700E124C9 /* musicTableViewController.swift in Sources */,
 				01F643982841C79D00E124C9 /* detailMusicViewController.swift in Sources */,
 				01F6437F2841C38900E124C9 /* AppDelegate.swift in Sources */,
