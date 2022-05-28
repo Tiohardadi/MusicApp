@@ -13,6 +13,7 @@
 		01F6438B2841C38B00E124C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F643892841C38B00E124C9 /* LaunchScreen.storyboard */; };
 		01F643932841C4D700E124C9 /* musicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F643922841C4D700E124C9 /* musicTableViewController.swift */; };
 		01F643982841C79D00E124C9 /* detailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F643972841C79D00E124C9 /* detailMusicViewController.swift */; };
+		01F643A02842091900E124C9 /* musicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6439F2842091900E124C9 /* musicList.swift */; };
 		0A42025D2841D55D00C14212 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */; };
 		0A42026A2841E0A700C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */; };
 		0ABA13452841E0E500785646 /* Rich Brian - Kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ABA13442841E0E500785646 /* Rich Brian - Kids.mp3 */; };
@@ -27,6 +28,7 @@
 		01F6438C2841C38B00E124C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F643922841C4D700E124C9 /* musicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicTableViewController.swift; sourceTree = "<group>"; };
 		01F643972841C79D00E124C9 /* detailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMusicViewController.swift; sourceTree = "<group>"; };
+		01F6439F2842091900E124C9 /* musicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicList.swift; sourceTree = "<group>"; };
 		0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
 		0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rich Brian ft. RZA - Rapapapa.mp3"; sourceTree = "<group>"; };
 		0ABA13442841E0E500785646 /* Rich Brian - Kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rich Brian - Kids.mp3"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		01F6437D2841C38900E124C9 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				01F6439E2842090800E124C9 /* dataLayer */,
 				01F643962841C76A00E124C9 /* PresentationLayer */,
 				01F643952841C75A00E124C9 /* Resource */,
 				01F643942841C72F00E124C9 /* App */,
@@ -106,6 +109,14 @@
 				0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		01F6439E2842090800E124C9 /* dataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				01F6439F2842091900E124C9 /* musicList.swift */,
+			);
+			path = dataLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A42025D2841D55D00C14212 /* MusicTableViewCell.swift in Sources */,
+				01F643A02842091900E124C9 /* musicList.swift in Sources */,
 				01F643932841C4D700E124C9 /* musicTableViewController.swift in Sources */,
 				01F643982841C79D00E124C9 /* detailMusicViewController.swift in Sources */,
 				01F6437F2841C38900E124C9 /* AppDelegate.swift in Sources */,
@@ -332,7 +344,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +372,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

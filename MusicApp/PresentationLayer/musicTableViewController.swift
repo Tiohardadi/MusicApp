@@ -10,7 +10,7 @@ import AVFoundation
 
 final class musicTableViewController: UITableViewController{
     
-    var listMusic = ["Rich Brian - Kids", "Rich Brian ft. RZA - Rapapapa"]
+    var listMusic = musicList.getList()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Music App"
@@ -49,9 +49,7 @@ final class musicTableViewController: UITableViewController{
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailVC = detailMusicViewController()
-        let row = indexPath.row
-        let music = listMusic[row]
-        detailVC.playedMusicTitles = [music]
+        detailVC.playedMusicIndex = indexPath.row
         self.navigationController?.pushViewController(detailVC, animated: true)
     }
     

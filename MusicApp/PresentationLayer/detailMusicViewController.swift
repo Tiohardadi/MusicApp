@@ -14,9 +14,7 @@ class detailMusicViewController: UIViewController{
     private(set) var player: AVAudioPlayer?
     var isPlayed: Bool = true
     var timer: Timer?
-    let playedMusicTitles: [String] =
-    ["y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps)",
-     "y2meta.com - Rich Brian - Kids (Official Video) (128 kbps)"]
+    var playedMusicTitles: [String] = musicList.getList()
     var playedMusicIndex: Int = 0
     var playedMusicTitle: String {
         let res: String = playedMusicTitles[playedMusicIndex]
@@ -133,6 +131,7 @@ class detailMusicViewController: UIViewController{
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        stopMusic()
         UIApplication.shared.endReceivingRemoteControlEvents()
     }
     
