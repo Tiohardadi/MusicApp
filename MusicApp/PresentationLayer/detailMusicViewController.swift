@@ -13,7 +13,7 @@ import UIKit
 class detailMusicViewController: UIViewController{
     private(set) var player: AVAudioPlayer?
     
-    let playedMusicTitles: [String] = ["y2meta.com - Rich Brian - Kids (Official Video) (128 kbps)"]
+    var playedMusicTitles: [String] = ["Rich Brian - Kids (Official Video) (128 kbps)"]
     private(set) var playedMusicIndex: Int = 0
     var playedMusicTitle: String {
         let res: String = playedMusicTitles[playedMusicIndex]

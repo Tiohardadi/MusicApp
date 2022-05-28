@@ -13,9 +13,9 @@
 		01F6438B2841C38B00E124C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F643892841C38B00E124C9 /* LaunchScreen.storyboard */; };
 		01F643932841C4D700E124C9 /* musicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F643922841C4D700E124C9 /* musicTableViewController.swift */; };
 		01F643982841C79D00E124C9 /* detailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F643972841C79D00E124C9 /* detailMusicViewController.swift */; };
-		01F6439B2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F6439A2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 */; };
-		01F6439D2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F6439C2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 */; };
 		0A42025D2841D55D00C14212 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */; };
+		0A42026A2841E0A700C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */; };
+		0ABA13452841E0E500785646 /* Rich Brian - Kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ABA13442841E0E500785646 /* Rich Brian - Kids.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		01F6438C2841C38B00E124C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F643922841C4D700E124C9 /* musicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicTableViewController.swift; sourceTree = "<group>"; };
 		01F643972841C79D00E124C9 /* detailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMusicViewController.swift; sourceTree = "<group>"; };
-		01F6439A2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3"; path = "../../../../../../../../Desktop/y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3"; sourceTree = "<group>"; };
-		01F6439C2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3"; path = "../../../../../../../../Desktop/y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3"; sourceTree = "<group>"; };
 		0A42025C2841D55D00C14212 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rich Brian ft. RZA - Rapapapa.mp3"; sourceTree = "<group>"; };
+		0ABA13442841E0E500785646 /* Rich Brian - Kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rich Brian - Kids.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 		01F643992841D9F900E124C9 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				01F6439C2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 */,
-				01F6439A2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 */,
+				0ABA13442841E0E500785646 /* Rich Brian - Kids.mp3 */,
+				0A4202692841E0A600C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -168,8 +168,8 @@
 			files = (
 				01F6438B2841C38B00E124C9 /* LaunchScreen.storyboard in Resources */,
 				01F643882841C38B00E124C9 /* Assets.xcassets in Resources */,
-				01F6439D2841DA7B00E124C9 /* y2meta.com - Rich Brian ft. RZA - Rapapapa (Lyric Video) (128 kbps).mp3 in Resources */,
-				01F6439B2841DA1500E124C9 /* y2meta.com - Rich Brian - Kids (Official Video) (128 kbps).mp3 in Resources */,
+				0A42026A2841E0A700C14212 /* Rich Brian ft. RZA - Rapapapa.mp3 in Resources */,
+				0ABA13452841E0E500785646 /* Rich Brian - Kids.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +360,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

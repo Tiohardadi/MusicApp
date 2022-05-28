@@ -11,28 +11,30 @@ class MusicTableViewCell: UITableViewCell {
     private lazy var musicImage: UIImageView = {
         var musicImage = UIImageView()
         musicImage.backgroundColor = .gray
-        musicImage.layer.cornerRadius = 8
+        musicImage.contentMode = .scaleAspectFit
         musicImage.clipsToBounds = true
+        musicImage.layer.cornerRadius = 4
+        
         return musicImage
     }()
     
     private lazy var musicArtist: UILabel = {
         var musicArtis = UILabel()
-        musicArtis.font = .systemFont(ofSize: 16, weight: .bold)
+        musicArtis.font = .systemFont(ofSize: 24, weight: .bold)
         musicArtis.textColor = .black
         return musicArtis
     }()
     
     private lazy var musicTitle: UILabel = {
         var musicArtis = UILabel()
-        musicArtis.font = .systemFont(ofSize: 14, weight: .regular)
+        musicArtis.font = .systemFont(ofSize: 16, weight: .regular)
         musicArtis.textColor = .lightGray
         return musicArtis
     }()
     
     private lazy var musicDuration: UILabel = {
         var musicArtis = UILabel()
-        musicArtis.font = .systemFont(ofSize: 14, weight: .regular)
+        musicArtis.font = .systemFont(ofSize: 16, weight: .regular)
         musicArtis.textColor = .lightGray
         return musicArtis
     }()
@@ -77,14 +79,13 @@ class MusicTableViewCell: UITableViewCell {
     
     private func setupConstraint() {
         musicStackView.translatesAutoresizingMaskIntoConstraints = false
-        musicImage.translatesAutoresizingMaskIntoConstraints = false
         
-        musicStackView.topAnchor.constraint(equalTo: self.topAnchor, constant: 8).isActive = true
-        musicStackView.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 8).isActive = true
-        musicStackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -8).isActive = true
-        musicStackView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor, constant: -8).isActive = true
+        musicStackView.topAnchor.constraint(equalTo: self.topAnchor, constant: 10).isActive = true
+        musicStackView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24).isActive = true
+        musicStackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10).isActive = true
+        musicStackView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -24).isActive = true
         
-        musicImage.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        musicImage.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        musicImage.heightAnchor.constraint(equalToConstant: 64).isActive = true
+        musicImage.widthAnchor.constraint(equalToConstant: 64).isActive = true
     }
 }
