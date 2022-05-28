@@ -8,7 +8,7 @@
 import UIKit
 
 
-final class detailMusicViewController: UIViewController{
+class detailMusicViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Detail music"
