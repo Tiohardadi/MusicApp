@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailMusicViewController.swift
 //  MusicApp
 //
 //  Created by Tio Hardadi Somantri on 5/28/22.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+final class detailMusicViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "Detail music"
+        
     }
-
-
 }
-
